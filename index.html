@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Quiz - May 6, 2025</title>
+    <title>BLS Productivity and Costs Report Quiz (May 8, 2025)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -137,8 +137,8 @@
 </head>
 <body>
     <header>
-        <h1>Global Quiz - May 6, 2025</h1>
-        <p>Test your knowledge of the key economic insights from today's briefing</p>
+        <h1>BLS Productivity and Costs Report Quiz (May 8, 2025)</h1>
+        <p>Test your knowledge of the key metrics from the latest productivity report</p>
     </header>
     
     <div id="quiz-container"></div>
@@ -156,322 +156,263 @@
         const quizData = {
             sections: [
                 {
-                    title: "European Auto Industry",
+                    title: "Key Metrics - First Quarter 2025",
                     questions: [
                         {
                             id: 1,
-                            text: "What is the main challenge facing European automakers according to the briefing?",
+                            text: "Nonfarm business sector labor productivity decreased by what percentage in Q1 2025?",
                             options: [
-                                { id: "A", text: "Labor union disputes" },
-                                { id: "B", text: "Global inflation" },
-                                { id: "C", text: "Competition from Chinese imports" },
-                                { id: "D", text: "Trump's trade war" }
+                                { id: "A", text: "-0.3%" },
+                                { id: "B", text: "-0.8%" },
+                                { id: "C", text: "0.6%" },
+                                { id: "D", text: "1.4%" }
                             ],
-                            correctAnswer: "C",
-                            explanation: "The briefing emphasizes that while Trump's trade war, global inflation, and labor disputes are all factors, the primary challenge is the flood of inexpensive Chinese vehicles, especially EVs, into the European market."
+                            correctAnswer: "B",
+                            explanation: "According to the BLS report, nonfarm business sector labor productivity decreased 0.8 percent in the first quarter of 2025, as output decreased 0.3 percent and hours worked increased 0.6 percent."
                         },
                         {
                             id: 2,
-                            text: "What was the price difference between European and Chinese cars at the end of 2024?",
+                            text: "How much did output decrease in the nonfarm business sector in Q1 2025?",
                             options: [
-                                { id: "A", text: "European: $49,000 vs Chinese: $18,000" },
-                                { id: "B", text: "European: $39,000 vs Chinese: $21,000" },
-                                { id: "C", text: "European: $42,000 vs Chinese: $15,000" },
-                                { id: "D", text: "European: $53,000 vs Chinese: $25,000" }
+                                { id: "A", text: "-0.3%" },
+                                { id: "B", text: "-0.8%" },
+                                { id: "C", text: "0.6%" },
+                                { id: "D", text: "5.7%" }
                             ],
                             correctAnswer: "A",
-                            explanation: "According to the briefing, 'As of the end of 2024, the average new car price in Europe was $49,000, according to Asia-focused auto advisory Dunne Insights. The cost of the average vehicle exported from China: $18,000.'"
+                            explanation: "The BLS report states that output decreased 0.3 percent in the nonfarm business sector during Q1 2025."
                         },
                         {
                             id: 3,
-                            text: "Which Chinese EV manufacturer surpassed Tesla in sales in 2024?",
+                            text: "What was the percentage increase in unit labor costs in the nonfarm business sector in Q1 2025?",
                             options: [
-                                { id: "A", text: "SAIC" },
-                                { id: "B", text: "Geely Group" },
-                                { id: "C", text: "BYD" },
-                                { id: "D", text: "Chery Automobile" }
+                                { id: "A", text: "1.3%" },
+                                { id: "B", text: "4.8%" },
+                                { id: "C", text: "5.7%" },
+                                { id: "D", text: "1.0%" }
                             ],
                             correctAnswer: "C",
-                            explanation: "The briefing states: 'In 2024, Shenzhen-based EV maker BYD leapfrogged over Elon Musk's Tesla in sales terms.'"
+                            explanation: "According to the report, unit labor costs in the nonfarm business sector increased 5.7 percent in the first quarter of 2025, reflecting a 4.8-percent increase in hourly compensation and a 0.8-percent decrease in productivity."
                         },
                         {
                             id: 4,
-                            text: "By what percentage did China's auto exports increase from 2020 to 2024?",
+                            text: "By how much did real hourly compensation increase in the nonfarm business sector in Q1 2025?",
                             options: [
-                                { id: "A", text: "293%" },
-                                { id: "B", text: "393%" },
-                                { id: "C", text: "493%" },
-                                { id: "D", text: "593%" }
+                                { id: "A", text: "0.0%" },
+                                { id: "B", text: "1.0%" },
+                                { id: "C", text: "2.7%" },
+                                { id: "D", text: "4.8%" }
                             ],
-                            correctAnswer: "C",
-                            explanation: "The briefing says: 'China went from one million auto exports in 2020 to 6.41 million in 2024, a 493% increase.'"
+                            correctAnswer: "B",
+                            explanation: "The report indicates that real hourly compensation, which takes into account consumer prices, increased 1.0 percent in the first quarter of 2025."
                         },
                         {
                             id: 5,
-                            text: "What was the EU tariff rate imposed on SAIC (state-owned Chinese automaker)?",
+                            text: "What was the annualized rate of productivity growth during the current business cycle (starting Q4 2019)?",
                             options: [
-                                { id: "A", text: "17.0%" },
-                                { id: "B", text: "18.8%" },
-                                { id: "C", text: "20.7%" },
-                                { id: "D", text: "35.3%" }
-                            ],
-                            correctAnswer: "D",
-                            explanation: "The briefing states: 'State-owned SAIC, by sharp contrast, received a 35.3% tariff.'"
-                        },
-                        {
-                            id: 6,
-                            text: "What policy goal might be undermined by reducing Chinese EV imports to Europe?",
-                            options: [
-                                { id: "A", text: "Improving diplomatic relations with China" },
-                                { id: "B", text: "Reducing unemployment in the auto sector" },
-                                { id: "C", text: "Meeting CO2 reduction targets" },
-                                { id: "D", text: "Increasing European market share" }
+                                { id: "A", text: "0.6%" },
+                                { id: "B", text: "1.5%" },
+                                { id: "C", text: "1.8%" },
+                                { id: "D", text: "2.1%" }
                             ],
                             correctAnswer: "C",
-                            explanation: "The briefing notes: 'One of the knock-on effects from having fewer Chinese EV imports would slow the growth of EVs in the 27-economy market and run counter to the European Commission's tougher carbon dioxide reduction targets.'"
+                            explanation: "According to the report, during the current business cycle, starting in the fourth quarter of 2019, labor productivity has grown at an annualized rate of 1.8 percent, reflecting a 2.4-percent rate of growth in output and a 0.6-percent rate of growth in hours worked."
+                        }
+                    ]
+                },
+                {
+                    title: "Manufacturing Sector - First Quarter 2025",
+                    questions: [
+                        {
+                            id: 6,
+                            text: "Manufacturing sector labor productivity increased by what percentage in Q1 2025?",
+                            options: [
+                                { id: "A", text: "2.2%" },
+                                { id: "B", text: "4.5%" },
+                                { id: "C", text: "5.1%" },
+                                { id: "D", text: "7.1%" }
+                            ],
+                            correctAnswer: "B",
+                            explanation: "According to the BLS report, manufacturing sector labor productivity increased 4.5 percent in the first quarter of 2025, as output increased 5.1 percent and hours worked increased 0.5 percent."
                         },
                         {
                             id: 7,
-                            text: "According to the briefing, what was German auto production (seasonally adjusted annual rate) in March 2025?",
+                            text: "How much did durable manufacturing sector productivity increase in Q1 2025?",
                             options: [
-                                { id: "A", text: "2.3 million" },
-                                { id: "B", text: "3.2 million" },
-                                { id: "C", text: "4.0 million" },
-                                { id: "D", text: "5.5 million" }
+                                { id: "A", text: "0.5%" },
+                                { id: "B", text: "2.2%" },
+                                { id: "C", text: "4.5%" },
+                                { id: "D", text: "7.1%" }
                             ],
-                            correctAnswer: "B",
-                            explanation: "The briefing states: 'Germany's auto production fell to 3.2 million (saar) during March (Fig. 2).'"
+                            correctAnswer: "D",
+                            explanation: "The report states that in the durable manufacturing sector, productivity increased 7.1 percent, reflecting a 7.9-percent increase in output and a 0.8-percent increase in hours worked."
                         },
                         {
                             id: 8,
-                            text: "What strategic plan launched by Xi Jinping in 2015 is mentioned as threatening German industrial interests?",
+                            text: "What was the percentage increase in unit labor costs in the total manufacturing sector in Q1 2025?",
                             options: [
-                                { id: "A", text: "Belt and Road Initiative" },
-                                { id: "B", text: "Made in China 2025" },
-                                { id: "C", text: "China Standards 2035" },
-                                { id: "D", text: "China Manufacturing 2025" }
+                                { id: "A", text: "0.7%" },
+                                { id: "B", text: "1.6%" },
+                                { id: "C", text: "4.5%" },
+                                { id: "D", text: "6.2%" }
                             ],
                             correctAnswer: "B",
-                            explanation: "The briefing mentions: 'Germany continues to learn the hard way that the Made in China 2025 strategic plan that Xi launched in 2015 produced Mainland auto, clean technology, and civil aviation sectors that are upending its industrial interests.'"
+                            explanation: "The report indicates that unit labor costs in the total manufacturing sector increased 1.6 percent in the first quarter of 2025, reflecting a 6.2-percent increase in hourly compensation and a 4.5-percent increase in productivity."
+                        },
+                        {
+                            id: 9,
+                            text: "By how much did nondurable manufacturing sector productivity increase in Q1 2025?",
+                            options: [
+                                { id: "A", text: "0.1%" },
+                                { id: "B", text: "2.2%" },
+                                { id: "C", text: "4.5%" },
+                                { id: "D", text: "7.1%" }
+                            ],
+                            correctAnswer: "B",
+                            explanation: "According to the report, nondurable manufacturing sector productivity increased 2.2 percent, as output increased 2.3 percent and hours worked increased 0.1 percent."
                         }
                     ]
                 },
                 {
-                    title: "Bank of Japan & Federal Reserve",
+                    title: "Year-over-Year Changes",
                     questions: [
                         {
-                            id: 9,
-                            text: "What is described as a common problem for both Jerome Powell (Fed) and Kazuo Ueda (BOJ)?",
+                            id: 10,
+                            text: "From the same quarter a year ago, nonfarm business sector labor productivity increased by what percentage in Q1 2025?",
                             options: [
-                                { id: "A", text: "Currency manipulation" },
-                                { id: "B", text: "Trump 2.0" },
-                                { id: "C", text: "Quantitative easing failures" },
-                                { id: "D", text: "Stagflation concerns" }
+                                { id: "A", text: "0.8%" },
+                                { id: "B", text: "1.4%" },
+                                { id: "C", text: "2.7%" },
+                                { id: "D", text: "5.7%" }
                             ],
                             correctAnswer: "B",
-                            explanation: "The briefing states: 'Powell and Ueda share a common problem: Trump 2.0.'"
-                        },
-                        {
-                            id: 10,
-                            text: "How many jobs did the US add in April 2025 according to the briefing?",
-                            options: [
-                                { id: "A", text: "147,000" },
-                                { id: "B", text: "157,000" },
-                                { id: "C", text: "167,000" },
-                                { id: "D", text: "177,000" }
-                            ],
-                            correctAnswer: "D",
-                            explanation: "The briefing mentions: 'But the justification to do so, the imminent recession argument, is dented by the US's adding an expectations-defying 177,000 jobs in April.'"
+                            explanation: "The report states that from the same quarter a year ago, nonfarm business sector labor productivity increased 1.4 percent in the first quarter of 2025."
                         },
                         {
                             id: 11,
-                            text: "What was the BOJ's benchmark interest rate after its January 2025 hike?",
-                            options: [
-                                { id: "A", text: "0.25%" },
-                                { id: "B", text: "0.5%" },
-                                { id: "C", text: "0.75%" },
-                                { id: "D", text: "1.0%" }
-                            ],
-                            correctAnswer: "B",
-                            explanation: "The briefing states: 'That month, the BOJ hiked its benchmark interest rate to a 17-year high of 0.5%.'"
-                        },
-                        {
-                            id: 12,
-                            text: "By approximately what percentage had the yen risen against the dollar in early 2025?",
-                            options: [
-                                { id: "A", text: "6%" },
-                                { id: "B", text: "9%" },
-                                { id: "C", text: "12%" },
-                                { id: "D", text: "15%" }
-                            ],
-                            correctAnswer: "B",
-                            explanation: "The briefing notes: 'With the yen already up nearly 9% this year, Japan Inc. is bracing for slower economic growth and lower profits.'"
-                        },
-                        {
-                            id: 13,
-                            text: "What is cited as a major factor that helped Japan overcome deflation (rather than BOJ's QE)?",
-                            options: [
-                                { id: "A", text: "Government fiscal stimulus" },
-                                { id: "B", text: "Foreign direct investment" },
-                                { id: "C", text: "Russia's invasion of Ukraine" },
-                                { id: "D", text: "Post-pandemic consumer spending" }
-                            ],
-                            correctAnswer: "C",
-                            explanation: "The briefing explains: 'QE hasn't defeated deflation so much as Vladimir Putin has. In 2022, Japan imported oil and food at elevated prices because of Russia's Ukraine invasion, which boosted commodities prices.'"
-                        },
-                        {
-                            id: 14,
-                            text: "What is Japan's approximate holdings of US Treasury securities?",
-                            options: [
-                                { id: "A", text: "$760 billion" },
-                                { id: "B", text: "$1.13 trillion" },
-                                { id: "C", text: "$1.37 trillion" },
-                                { id: "D", text: "$2.1 trillion" }
-                            ],
-                            correctAnswer: "B",
-                            explanation: "The briefing states: 'There's another wildcard here: Tokyo's status as the largest holder of US Treasury securities, with $1.13 trillion.'"
-                        },
-                        {
-                            id: 15,
-                            text: "What was Japan's consumer price inflation rate in March 2025?",
-                            options: [
-                                { id: "A", text: "2.0%" },
-                                { id: "B", text: "2.8%" },
-                                { id: "C", text: "3.6%" },
-                                { id: "D", text: "4.2%" }
-                            ],
-                            correctAnswer: "C",
-                            explanation: "The briefing notes: 'In March, prices rose at a 3.6% y/y rate.'"
-                        },
-                        {
-                            id: 16,
-                            text: "What historical agreement does Trump's 'Mar-a-Lago Accord' reference?",
-                            options: [
-                                { id: "A", text: "Plaza Accord" },
-                                { id: "B", text: "Bretton Woods Agreement" },
-                                { id: "C", text: "Louvre Accord" },
-                                { id: "D", text: "Tokyo Round" }
-                            ],
-                            correctAnswer: "A",
-                            explanation: "The briefing states: 'And when Trump muses about a Mar-a-Lago Accord, he's riffing on the 1985 Plaza Accord to weaken the dollar versus the yen, forged at a New York hotel he once owned.'"
-                        }
-                    ]
-                },
-                {
-                    title: "Market Indicators & Economic Data",
-                    questions: [
-                        {
-                            id: 17,
-                            text: "What happened to the S&P 500's forward earnings during the May 2 week?",
-                            options: [
-                                { id: "A", text: "Rose 0.2% week-over-week" },
-                                { id: "B", text: "Fell 0.2% week-over-week" },
-                                { id: "C", text: "Rose 0.4% week-over-week" },
-                                { id: "D", text: "Fell 0.4% week-over-week" }
-                            ],
-                            correctAnswer: "A",
-                            explanation: "The briefing states: 'LargeCap's forward earnings rose 0.2% w/w to 0.7% below its record high during the April 4 week.'"
-                        },
-                        {
-                            id: 18,
-                            text: "By how much was the S&P 600 (SmallCap) forward earnings below its record high?",
+                            text: "Total manufacturing sector productivity increased by what percentage from the same quarter a year ago?",
                             options: [
                                 { id: "A", text: "0.7%" },
                                 { id: "B", text: "1.5%" },
-                                { id: "C", text: "7.6%" },
-                                { id: "D", text: "13.9%" }
+                                { id: "C", text: "2.2%" },
+                                { id: "D", text: "4.5%" }
                             ],
-                            correctAnswer: "D",
-                            explanation: "The briefing notes: 'SmallCap's fell 0.4% w/w to 13.9% below its June 2022 record.'"
+                            correctAnswer: "B",
+                            explanation: "According to the report, total manufacturing sector productivity increased 1.5 percent from the same quarter a year ago."
                         },
                         {
-                            id: 19,
-                            text: "What was the S&P 500 (LargeCap) forward P/E ratio after rising 0.5 points?",
+                            id: 12,
+                            text: "By how much did unit labor costs increase in the nonfarm business sector over the last four quarters?",
                             options: [
-                                { id: "A", text: "14.3" },
-                                { id: "B", text: "14.8" },
-                                { id: "C", text: "17.0" },
-                                { id: "D", text: "20.5" }
+                                { id: "A", text: "0.0%" },
+                                { id: "B", text: "1.3%" },
+                                { id: "C", text: "2.7%" },
+                                { id: "D", text: "5.7%" }
                             ],
-                            correctAnswer: "D",
-                            explanation: "The briefing states: 'LargeCap's forward P/E rose 0.5pt w/w to 20.5.'"
+                            correctAnswer: "B",
+                            explanation: "The report states that unit labor costs increased 1.3 percent over the last four quarters in the nonfarm business sector."
                         },
                         {
-                            id: 20,
-                            text: "What was the US Non-Manufacturing PMI reading for April 2025?",
+                            id: 13,
+                            text: "Manufacturing unit labor costs increased by what percentage from the same quarter a year ago?",
                             options: [
-                                { id: "A", text: "49.0" },
-                                { id: "B", text: "50.2" },
-                                { id: "C", text: "51.6" },
-                                { id: "D", text: "53.7" }
+                                { id: "A", text: "0.7%" },
+                                { id: "B", text: "1.5%" },
+                                { id: "C", text: "2.2%" },
+                                { id: "D", text: "6.2%" }
                             ],
-                            correctAnswer: "C",
-                            explanation: "The briefing notes: 'The ISM NM-PMI climbed to 51.6 in April from March's nine-month low of 50.8—coming in ahead of the consensus estimate of 50.2.'"
+                            correctAnswer: "A",
+                            explanation: "According to the report, manufacturing unit labor costs increased 0.7 percent from the same quarter a year ago."
                         }
                     ]
                 },
                 {
-                    title: "Advanced Topics",
+                    title: "Revised Measures & Historical Comparison",
                     questions: [
                         {
-                            id: 21,
-                            text: "What investment strategy is described as being at risk due to possible changes in BOJ policy?",
+                            id: 14,
+                            text: "How does the current business cycle productivity growth rate (1.8%) compare to the previous business cycle (Q4 2007 through Q4 2019)?",
                             options: [
-                                { id: "A", text: "Dollar cost averaging" },
-                                { id: "B", text: "Yen carry-trade" },
-                                { id: "C", text: "Value investing" },
-                                { id: "D", text: "Technical analysis" }
-                            ],
-                            correctAnswer: "B",
-                            explanation: "The briefing states: 'Then there's the so-called yen carry-trade that's now at risk.'"
-                        },
-                        {
-                            id: 22,
-                            text: "What EU policy is mentioned regarding new car purchases by 2035?",
-                            options: [
-                                { id: "A", text: "50% of all new cars to be EVs" },
-                                { id: "B", text: "75% of all new cars to be EVs" },
-                                { id: "C", text: "90% of all new cars to be EVs" },
-                                { id: "D", text: "100% of all new cars to be EVs" }
+                                { id: "A", text: "It is lower than the previous rate of 2.1%" },
+                                { id: "B", text: "It is higher than the previous rate of 1.5%" },
+                                { id: "C", text: "It is equal to the previous rate of 1.8%" },
+                                { id: "D", text: "Both a and b are correct" }
                             ],
                             correctAnswer: "D",
-                            explanation: "The briefing notes: 'At present, the EU's policy is for 100% of all new cars purchased to be EVs by 2035.'"
+                            explanation: "The report states that the 1.8-percent annualized rate of productivity growth in the current business cycle thus far is higher than the 1.5-percent rate of the previous business cycle from the fourth quarter of 2007 through the fourth quarter of 2019, and is below the long-term rate of 2.1 percent since the first quarter of 1947."
                         },
                         {
-                            id: 23,
-                            text: "Which executive is quoted as arguing that strict EU regulations disadvantage European automakers against China?",
+                            id: 15,
+                            text: "Manufacturing sector labor productivity has grown at what annualized rate during the current business cycle?",
                             options: [
-                                { id: "A", text: "Oliver Blume (VW)" },
-                                { id: "B", text: "Ola Källenius (Mercedes-Benz)" },
-                                { id: "C", text: "Michael Dunne (Dunne Insights)" },
-                                { id: "D", text: "Mario Draghi (former Italian PM)" }
+                                { id: "A", text: "0.1%" },
+                                { id: "B", text: "0.5%" },
+                                { id: "C", text: "1.5%" },
+                                { id: "D", text: "2.1%" }
                             ],
                             correctAnswer: "B",
-                            explanation: "The briefing states: 'Industry executives like Ola Källenius, CEO of Mercedes-Benz, have long argued that strict EU regulations are a big disadvantage that China is exploiting.'"
+                            explanation: "According to the report, manufacturing sector labor productivity has grown at an annualized rate of 0.5 percent during the current business cycle, as output has increased 0.2 percent and hours have declined 0.3 percent."
                         },
                         {
-                            id: 24,
-                            text: "What is the expected US Fed Interest Rate Decision mentioned in the calendar section?",
+                            id: 16,
+                            text: "In the fourth quarter of 2024, nonfinancial corporate sector productivity increased by what percentage?",
                             options: [
-                                { id: "A", text: "4.25%" },
-                                { id: "B", text: "4.50%" },
-                                { id: "C", text: "4.75%" },
-                                { id: "D", text: "5.00%" }
+                                { id: "A", text: "3.7%" },
+                                { id: "B", text: "4.9%" },
+                                { id: "C", text: "5.4%" },
+                                { id: "D", text: "0.4%" }
                             ],
                             correctAnswer: "B",
-                            explanation: "The briefing's calendar section lists: 'Wed: Fed Interest Rate Decision 4.50%'"
+                            explanation: "The report states that productivity increased 4.9 percent in the fourth quarter of 2024 for the nonfinancial corporate sector, as output increased 5.4 percent and hours worked increased 0.4 percent."
                         },
                         {
-                            id: 25,
-                            text: "What were the consensus earnings growth rates projected for the S&P 500 in 2024, 2025, and 2026?",
+                            id: 17,
+                            text: "This is the first decline in nonfarm business sector labor productivity since ____________.",
                             options: [
-                                { id: "A", text: "9.7%, 9.0%, 13.7%" },
-                                { id: "B", text: "0.4%, 6.3%, 16.0%" },
-                                { id: "C", text: "-10.2%, 4.6%, 19.1%" },
-                                { id: "D", text: "4.9%, 7.2%, 15.3%" }
+                                { id: "A", text: "the first quarter of 2022" },
+                                { id: "B", text: "the second quarter of 2022" },
+                                { id: "C", text: "the third quarter of 2022" },
+                                { id: "D", text: "the fourth quarter of 2022" }
+                            ],
+                            correctAnswer: "B",
+                            explanation: "According to the report, this is the first decline in nonfarm business sector labor productivity since the second quarter of 2022."
+                        },
+                        {
+                            id: 18,
+                            text: "The BLS calculates unit labor costs as the ratio of ____________ to ____________.",
+                            options: [
+                                { id: "A", text: "hourly compensation, labor productivity" },
+                                { id: "B", text: "labor productivity, hourly compensation" },
+                                { id: "C", text: "output, hours worked" },
+                                { id: "D", text: "hours worked, output" }
                             ],
                             correctAnswer: "A",
-                            explanation: "The briefing states: 'Here are the latest consensus earnings growth rates for 2024, 2025, and 2026: LargeCap (9.7%, 9.0%, 13.7%), MidCap (0.4, 6.3, 16.0), and SmallCap (-10.2, 4.6, 19.1).'"
+                            explanation: "The report states that BLS calculates unit labor costs as the ratio of hourly compensation to labor productivity. Increases in hourly compensation tend to increase unit labor costs and increases in productivity tend to reduce them."
+                        }
+                    ]
+                },
+                {
+                    title: "Technical Details & Methodology",
+                    questions: [
+                        {
+                            id: 19,
+                            text: "Manufacturing sector labor productivity in the current business cycle is below the long-term rate since the first quarter of 1987.",
+                            options: [
+                                { id: "A", text: "True" },
+                                { id: "B", text: "False" }
+                            ],
+                            correctAnswer: "A",
+                            explanation: "According to the report, the 0.5-percent annualized rate of productivity growth in the current business cycle thus far is above the 0.1-percent rate of the previous business cycle from the fourth quarter of 2007 through the fourth quarter of 2019 and is below the long-term rate of 2.1 percent since the first quarter of 1987."
+                        },
+                        {
+                            id: 20,
+                            text: "The manufacturing sector and the nonfarm business sector output measures are directly comparable.",
+                            options: [
+                                { id: "A", text: "True" },
+                                { id: "B", text: "False" }
+                            ],
+                            correctAnswer: "B",
+                            explanation: "The report explicitly states that the concepts, sources, and methods used for the manufacturing output series differ from those used in the business and nonfarm business output series; these output measures are not directly comparable."
                         }
                     ]
                 }
